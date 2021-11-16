@@ -80,7 +80,7 @@ public class OrangeHrm  {
 		Select select1 = new Select(driver.findElement(By.xpath("//select[@id='Form_submitForm_State']")));
 		select1.selectByVisibleText(state);
 		Thread.sleep(5000);
-		driver.quit();
+		driver.close();
 	}
 	
 	
